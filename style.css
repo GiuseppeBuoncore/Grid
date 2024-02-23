@@ -1,0 +1,38 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 80px;
+  width: 400px;
+  overflow: hidden;
+  border: 1px solid #8398A9;
+  border-radius: 20px;
+}
+
+.operator{
+  border: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #8398A9;
+}
+
+.screen{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  grid-column: 1 / 5;
+  background-color: #424C52;
+}
+
+.equal{
+  grid-column-start: 4;
+  grid-row-start: 3;
+  grid-row-end: 7;
+  background-color: #F77077;
+}
+
+.ternary{
+  background-color: #D2DCE3;
+}
